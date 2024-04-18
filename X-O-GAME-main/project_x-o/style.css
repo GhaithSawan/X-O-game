@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+
+body {
+    height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: linear-gradient(214deg, rgba(226, 183, 183, 1) 1%, rgba(212, 216, 217, 1) 63%)no-repeat;
+}
+
+.game {
+    width: 255px;
+    height: max-content !important;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    height: 100vh;
+
+}
+
+.title {
+    background: linear-gradient(214deg, rgba(224, 133, 133, 1) 1%, rgba(165, 107, 170, 1) 63%);
+    margin: 5px 0;
+    padding: 5px 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+span {
+    color: yellow;
+}
+
+.sqar {
+    background: linear-gradient(214deg, rgba(224, 133, 133, 1) 1%, rgba(165, 107, 170, 1) 63%);
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    float: left;
+    font-size: 50px;
+    transition: .2s all;
+    text-align: center;
+
+
+
+}
+
+.sqar:hover {
+    background: linear-gradient(214deg, rgba(241, 207, 207, 1) 1%, rgba(193, 161, 195, 1) 63%);
+
+}
+
+@media(min-width:600px) {
+    .game {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .sqar {
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 180px;
+    }
+
+}
